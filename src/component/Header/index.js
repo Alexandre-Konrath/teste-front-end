@@ -8,7 +8,7 @@ export function Header() {
         <img src={logo} alt="Logo" className="logo"/>
       </div>
       <div className="title">
-        <h1>Teste de Desenvolvedor Front<strong>-</strong>End <strong>-</strong> Anota AI</h1>
+        <h1>Teste de Desenvolvedor <strong>-</strong>End <strong>-</strong> Anota AI</h1>
         <div className="nome">
           <span>—</span> <p> Alexandre de Lima Konrath </p> <span> ———————————</span>
         </div>
