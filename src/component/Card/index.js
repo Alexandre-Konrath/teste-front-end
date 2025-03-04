@@ -9,8 +9,9 @@ export function Card({ valorBusca }) {
   useEffect(() => {
     const buscarData = async () => {
       try {
-        const response = await api.get('/cardlist.json');
-        setData(response.data);
+        const res = await api.get('/cardlist.json');
+        setData(res.data);
+
       } catch (error) {
         console.error('Erro ao carregar os dados:', error);
       }
